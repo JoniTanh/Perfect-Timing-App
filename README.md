@@ -10,21 +10,21 @@ This application utilizes React's Refs and Portals features. Refs enable direct 
 
 Follow these instructions to set up and run the application locally:
 
-**1. Install Dependencies:** Start by installing all the necessary dependencies. You can do this by running the command:
+**1. Navigate to the Project Directory:** To begin setting up the application, first navigate to the project's main directory with the following command:
+
+```
+cd Refs-Portals
+```
+
+This ensures that you are in the right directory before proceeding with the setup.
+
+**2. Install Dependencies:** Next, install all the necessary dependencies. You can do this by running the command:
 
 ```
 npm install
 ```
 
 This command downloads and installs all dependencies defined in the `package.json` file.
-
-**2. Navigate to the Project Directory:** Once the dependencies are installed, move to the project's main directory with the following command:
-
-```
-cd Refs-Portals
-```
-
-This ensures that you are in the right directory before starting the application.
 
 **3. Start the Development Server:** Finally, you can launch the development server by running:
 
