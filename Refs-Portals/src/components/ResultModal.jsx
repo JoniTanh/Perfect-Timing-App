@@ -23,7 +23,7 @@ const ResultModal = forwardRef(function ResultModal(
   return createPortal(
     <dialog
       ref={dialog}
-      className="bg-sky-50 border-2 border-black rounded-lg p-5 max-w-lg w-full mx-auto my-12 shadow-lg top-40"
+      className="backdrop:bg-stone-900/90 bg-sky-50 border-2 border-black rounded-lg p-5 max-w-lg w-full mx-auto my-12 shadow-lg top-40"
     >
       <div className="text-center">
         {userLost && (
